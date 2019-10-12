@@ -32,6 +32,7 @@
     <modules>
         <module>beihu-leaf-core</module>
         <module>beihu-leaf-server</module>
+        <module>beihu-leaf-facade</module>
     </modules>
 
     <dependencies>
@@ -104,6 +105,11 @@
             <dependency>
                 <groupId>ltd.beihu.leaf</groupId>
                 <artifactId>beihu-leaf-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ltd.beihu.leaf</groupId>
+                <artifactId>beihu-leaf-facade</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

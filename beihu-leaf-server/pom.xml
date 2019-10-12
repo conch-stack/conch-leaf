@@ -33,6 +33,10 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>ltd.beihu.leaf</groupId>
+            <artifactId>beihu-leaf-facade</artifactId>
+        </dependency>
         <!--SOFARegistry 依赖-->
         <dependency>
             <groupId>com.alipay.sofa</groupId>
