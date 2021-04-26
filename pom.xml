@@ -19,7 +19,7 @@
         <project.encoding>UTF-8</project.encoding>
         <maven.compiler.plugin>3.1</maven.compiler.plugin>
 
-        <common-io.version>2.6</common-io.version>
+        <common-io.version>2.7</common-io.version>
         <druid.version>1.1.9</druid.version>
         <curator.version>2.6.0</curator.version>
         <mybatis.version>3.4.6</mybatis.version>
