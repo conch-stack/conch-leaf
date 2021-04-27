@@ -24,7 +24,7 @@
         <curator.version>2.6.0</curator.version>
         <mybatis.version>3.4.6</mybatis.version>
         <perf4j.version>0.9.16</perf4j.version>
-        <jackson.version>2.9.10</jackson.version>
+        <jackson.version>2.9.10.7</jackson.version>
 
         <beihu.boot.version>1.0.3</beihu.boot.version>
     </properties>
