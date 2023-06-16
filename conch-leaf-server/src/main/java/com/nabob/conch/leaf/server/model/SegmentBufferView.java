@@ -1,4 +1,4 @@
-package ltd.beihu.leaf.server.model;
+package com.nabob.conch.leaf.server.model;
 
 public class SegmentBufferView {
     private String key;

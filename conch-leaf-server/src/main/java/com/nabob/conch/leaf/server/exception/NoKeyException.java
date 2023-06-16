@@ -1,4 +1,4 @@
-package ltd.beihu.leaf.server.exception;
+package com.nabob.conch.leaf.server.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,16 +1,16 @@
-### Beihu-Leaf
+### Conch-Leaf
 
 > 分布式唯一ID服务，支持REST、RPC调用，供参考学习！
 
-##### 本项目基于Beihu-Boot、Leaf(美团)开发，可独立部署使用，提供REST接口、RPC方式的调用
+##### 本项目基于Conch-Boot、Leaf(美团)开发，可独立部署使用，提供REST接口、RPC方式的调用
 
 ##### 包含：
 
-| 模块                          | 组件            | 特点描述                                                     |
-| ---------------------------- | --------------- | ------------------------------------------------------------ |
-| beihu-leaf-core              | Core            | 美团Leaf核心代码                                      |
-| beihu-leaf-facade            | Facade          | SofaRpc接口定义                                 |
-| beihu-leaf-server            | Server          | 提供REST、RPC接口，获取分布式唯一ID              |
+| 模块                | 组件            | 特点描述                                                     |
+|-------------------| --------------- | ------------------------------------------------------------ |
+| conch-leaf-core   | Core            | 美团Leaf核心代码                                      |
+| conch-leaf-facade | Facade          | SofaRpc接口定义                                 |
+| conch-leaf-server | Server          | 提供REST、RPC接口，获取分布式唯一ID              |
 
 
 ##### TODO：
@@ -29,7 +29,7 @@
 
 `[Leaf](https://github.com/Meituan-Dianping/Leaf)`
 
-`[Beihu-Boot](https://github.com/beihu-stack/beihu-boot)`    
+`[Conch-Boot](https://github.com/beihu-stack/conch-boot)`    
 
 ###### 大神：
 

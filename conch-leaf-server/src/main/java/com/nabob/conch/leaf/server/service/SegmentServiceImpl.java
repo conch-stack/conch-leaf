@@ -1,18 +1,18 @@
-package ltd.beihu.leaf.server.service;
+package com.nabob.conch.leaf.server.service;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alipay.sofa.runtime.api.annotation.SofaService;
 import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
-import ltd.beihu.leaf.beihuleaffacade.SegmentService;
-import ltd.beihu.leaf.core.IDGen;
-import ltd.beihu.leaf.core.common.PropertyFactory;
-import ltd.beihu.leaf.core.common.ZeroIDGen;
-import ltd.beihu.leaf.core.segment.SegmentIDGenImpl;
-import ltd.beihu.leaf.core.segment.dao.IDAllocDao;
-import ltd.beihu.leaf.core.segment.dao.impl.IDAllocDaoImpl;
-import ltd.beihu.leaf.server.common.Constants;
-import ltd.beihu.leaf.server.exception.InitException;
-import ltd.beihu.leaf.server.utils.LeafUtils;
+import com.nabob.conch.leaf.facade.SegmentService;
+import com.nabob.conch.leaf.core.IDGen;
+import com.nabob.conch.leaf.core.common.PropertyFactory;
+import com.nabob.conch.leaf.core.common.ZeroIDGen;
+import com.nabob.conch.leaf.core.segment.SegmentIDGenImpl;
+import com.nabob.conch.leaf.core.segment.dao.IDAllocDao;
+import com.nabob.conch.leaf.core.segment.dao.impl.IDAllocDaoImpl;
+import com.nabob.conch.leaf.server.common.Constants;
+import com.nabob.conch.leaf.server.exception.InitException;
+import com.nabob.conch.leaf.server.utils.LeafUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -21,9 +21,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 @Service
-@SofaService(interfaceType = SegmentService.class, uniqueId = "${beihu.rpc.beihu-leaf}",
+@SofaService(interfaceType = SegmentService.class, uniqueId = "${conch.rpc.conch-leaf}",
         bindings = { @SofaServiceBinding(
-                bindingType = "${beihu.rpc.binding-type}")
+                bindingType = "${conch.rpc.binding-type}")
         })
 public class SegmentServiceImpl implements SegmentService {
 

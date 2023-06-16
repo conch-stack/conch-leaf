@@ -1,7 +1,7 @@
-package ltd.beihu.leaf.server.controller;
+package com.nabob.conch.leaf.server.controller;
 
-import ltd.beihu.leaf.server.service.SegmentServiceImpl;
-import ltd.beihu.leaf.server.service.SnowflakeServiceImpl;
+import com.nabob.conch.leaf.server.service.SegmentServiceImpl;
+import com.nabob.conch.leaf.server.service.SnowflakeServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

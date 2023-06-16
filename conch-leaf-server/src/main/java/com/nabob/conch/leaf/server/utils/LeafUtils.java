@@ -1,9 +1,9 @@
-package ltd.beihu.leaf.server.utils;
+package com.nabob.conch.leaf.server.utils;
 
-import ltd.beihu.leaf.core.common.Result;
-import ltd.beihu.leaf.core.common.Status;
-import ltd.beihu.leaf.server.exception.LeafServerException;
-import ltd.beihu.leaf.server.exception.NoKeyException;
+import com.nabob.conch.leaf.core.common.Result;
+import com.nabob.conch.leaf.core.common.Status;
+import com.nabob.conch.leaf.server.exception.LeafServerException;
+import com.nabob.conch.leaf.server.exception.NoKeyException;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
