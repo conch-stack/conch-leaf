@@ -1,6 +1,6 @@
-package ltd.beihu.leaf.core.segment.dao;
+package com.nabob.conch.leaf.core.segment.dao;
 
-import ltd.beihu.leaf.core.segment.model.LeafAlloc;
+import com.nabob.conch.leaf.core.segment.model.LeafAlloc;
 
 import java.util.List;
 

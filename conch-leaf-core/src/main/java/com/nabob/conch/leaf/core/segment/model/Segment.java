@@ -1,4 +1,4 @@
-package ltd.beihu.leaf.core.segment.model;
+package com.nabob.conch.leaf.core.segment.model;
 
 import java.util.concurrent.atomic.AtomicLong;
 

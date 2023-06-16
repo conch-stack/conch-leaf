@@ -1,8 +1,8 @@
-package ltd.beihu.leaf.core.segment.dao.impl;
+package com.nabob.conch.leaf.core.segment.dao.impl;
 
-import ltd.beihu.leaf.core.segment.dao.IDAllocDao;
-import ltd.beihu.leaf.core.segment.dao.IDAllocMapper;
-import ltd.beihu.leaf.core.segment.model.LeafAlloc;
+import com.nabob.conch.leaf.core.segment.dao.IDAllocDao;
+import com.nabob.conch.leaf.core.segment.dao.IDAllocMapper;
+import com.nabob.conch.leaf.core.segment.model.LeafAlloc;
 import org.apache.ibatis.mapping.Environment;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.SqlSession;

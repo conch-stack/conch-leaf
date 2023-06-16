@@ -1,4 +1,4 @@
-package ltd.beihu.leaf.core.snowflake.exception;
+package com.nabob.conch.leaf.core.snowflake.exception;
 
 public class CheckLastTimeException extends RuntimeException {
     public CheckLastTimeException(String msg){

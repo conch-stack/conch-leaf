@@ -1,6 +1,6 @@
-package ltd.beihu.leaf.core.common;
+package com.nabob.conch.leaf.core.common;
 
-import ltd.beihu.leaf.core.IDGen;
+import com.nabob.conch.leaf.core.IDGen;
 
 public class ZeroIDGen implements IDGen {
 
