@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ltd.beihu.leaf</groupId>
-    <artifactId>beihu-leaf</artifactId>
+    <groupId>com.nabob.conch</groupId>
+    <artifactId>conch-leaf</artifactId>
     <version>0.0.1</version>
     <packaging>pom</packaging>
 
-    <name>beihu-leaf</name>
+    <name>conch-leaf</name>
 
     <properties>
         <java.version>1.8</java.version>
@@ -26,13 +26,13 @@
         <perf4j.version>0.9.16</perf4j.version>
         <jackson.version>2.12.7.1</jackson.version>
 
-        <beihu.boot.version>1.0.3</beihu.boot.version>
+        <conch.boot.version>1.0.5</conch.boot.version>
     </properties>
 
     <modules>
-        <module>beihu-leaf-core</module>
-        <module>beihu-leaf-server</module>
-        <module>beihu-leaf-facade</module>
+        <module>conch-leaf-core</module>
+        <module>conch-leaf-server</module>
+        <module>conch-leaf-facade</module>
     </modules>
 
     <dependencies>
@@ -46,17 +46,17 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
-            <groupId>ltd.beihu.core</groupId>
-            <artifactId>tools-beihu-boot</artifactId>
+            <groupId>com.nabob.conch</groupId>
+            <artifactId>tools-conch-boot</artifactId>
         </dependency>
     </dependencies>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>ltd.beihu.core</groupId>
-                <artifactId>beihu-boot-dependencies</artifactId>
-                <version>${beihu.boot.version}</version>
+                <groupId>com.nabob.conch</groupId>
+                <artifactId>conch-boot-dependencies</artifactId>
+                <version>${conch.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -103,13 +103,13 @@
                 <version>${druid.version}</version>
             </dependency>
             <dependency>
-                <groupId>ltd.beihu.leaf</groupId>
-                <artifactId>beihu-leaf-core</artifactId>
+                <groupId>com.nabob.conch</groupId>
+                <artifactId>conch-leaf-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>ltd.beihu.leaf</groupId>
-                <artifactId>beihu-leaf-facade</artifactId>
+                <groupId>com.nabob.conch</groupId>
+                <artifactId>conch-leaf-facade</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
@@ -135,16 +135,16 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>release</id>
-            <name>Nexus Release Repository</name>
-            <url>http://192.168.2.113:8081/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://192.168.2.113:8081/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>release</id>-->
+<!--            <name>Nexus Release Repository</name>-->
+<!--            <url>http://192.168.2.113:8081/nexus/content/repositories/releases</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>snapshots</id>-->
+<!--            <name>Nexus Snapshot Repository</name>-->
+<!--            <url>http://192.168.2.113:8081/nexus/content/repositories/snapshots</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
 </project>
